@@ -1,0 +1,17 @@
+// Fonts
+@use "./fonts";
+
+// Variable
+@use "./variables";
+@use "./globals";
+
+// Load Boostrap
+@use "../bootstrap/scss/bootstrap.scss" as *;
+
+// Components
+@use "components/header";
+@use "components/hero";
+@use "components/product";
+@use "components/features";
+@use "components/highlights";
+@use "components/warrenty";

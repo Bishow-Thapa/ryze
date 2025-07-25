@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryze</title>
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+</head>
+
+<body>
+
+    <div class="ryze-wrapper page-header">
+        <div class="container">
+            <header class="header">
+                <!-- ☰ Hamburger (visible only on mobile) -->
+                <button class="header__toggle btn d-md-none" type="button" aria-label="Toggle navigation"
+                    data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                    <span class="header__icon navbar-toggler-icon">
+                        <svg width="14" height="12" viewBox="0 0 22 19" fill="white" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.7843 0.539216H6.03922C5.92059 0.539216 5.82353 0.636274 5.82353 0.754902V2.26471C5.82353 2.38333 5.92059 2.48039 6.03922 2.48039H21.7843C21.9029 2.48039 22 2.38333 22 2.26471V0.754902C22 0.636274 21.9029 0.539216 21.7843 0.539216ZM21.7843 8.19608H6.03922C5.92059 8.19608 5.82353 8.29314 5.82353 8.41176V9.92157C5.82353 10.0402 5.92059 10.1373 6.03922 10.1373H21.7843C21.9029 10.1373 22 10.0402 22 9.92157V8.41176C22 8.29314 21.9029 8.19608 21.7843 8.19608ZM21.7843 15.8529H6.03922C5.92059 15.8529 5.82353 15.95 5.82353 16.0686V17.5784C5.82353 17.6971 5.92059 17.7941 6.03922 17.7941H21.7843C21.9029 17.7941 22 17.6971 22 17.5784V16.0686C22 15.95 21.9029 15.8529 21.7843 15.8529ZM0 1.5098C-2.95446e-09 1.70807 0.0390523 1.9044 0.114927 2.08758C0.190802 2.27076 0.302013 2.4372 0.442211 2.5774C0.58241 2.71759 0.748849 2.82881 0.932027 2.90468C1.1152 2.98056 1.31153 3.01961 1.5098 3.01961C1.70807 3.01961 1.9044 2.98056 2.08758 2.90468C2.27076 2.82881 2.4372 2.71759 2.5774 2.5774C2.71759 2.4372 2.82881 2.27076 2.90468 2.08758C2.98056 1.9044 3.01961 1.70807 3.01961 1.5098C3.01961 1.31153 2.98056 1.1152 2.90468 0.932027C2.82881 0.748849 2.71759 0.58241 2.5774 0.442211C2.4372 0.302013 2.27076 0.190802 2.08758 0.114927C1.9044 0.0390521 1.70807 0 1.5098 0C1.31153 0 1.1152 0.0390521 0.932027 0.114927C0.748849 0.190802 0.58241 0.302013 0.442211 0.442211C0.302013 0.58241 0.190802 0.748849 0.114927 0.932027C0.0390523 1.1152 -2.95446e-09 1.31153 0 1.5098ZM0 9.16667C-2.95446e-09 9.36494 0.0390523 9.56127 0.114927 9.74444C0.190802 9.92762 0.302013 10.0941 0.442211 10.2343C0.58241 10.3745 0.748849 10.4857 0.932027 10.5615C1.1152 10.6374 1.31153 10.6765 1.5098 10.6765C1.70807 10.6765 1.9044 10.6374 2.08758 10.5615C2.27076 10.4857 2.4372 10.3745 2.5774 10.2343C2.71759 10.0941 2.82881 9.92762 2.90468 9.74444C2.98056 9.56127 3.01961 9.36494 3.01961 9.16667C3.01961 8.9684 2.98056 8.77207 2.90468 8.58889C2.82881 8.40571 2.71759 8.23927 2.5774 8.09907C2.4372 7.95888 2.27076 7.84766 2.08758 7.77179C1.9044 7.69591 1.70807 7.65686 1.5098 7.65686C1.31153 7.65686 1.1152 7.69591 0.932027 7.77179C0.748849 7.84766 0.58241 7.95888 0.442211 8.09907C0.302013 8.23927 0.190802 8.40571 0.114927 8.58889C0.0390523 8.77207 -2.95446e-09 8.9684 0 9.16667ZM0 16.8235C-2.95446e-09 17.0218 0.0390523 17.2181 0.114927 17.4013C0.190802 17.5845 0.302013 17.7509 0.442211 17.8911C0.58241 18.0313 0.748849 18.1425 0.932027 18.2184C1.1152 18.2943 1.31153 18.3333 1.5098 18.3333C1.70807 18.3333 1.9044 18.2943 2.08758 18.2184C2.27076 18.1425 2.4372 18.0313 2.5774 17.8911C2.71759 17.7509 2.82881 17.5845 2.90468 17.4013C2.98056 17.2181 3.01961 17.0218 3.01961 16.8235C3.01961 16.6253 2.98056 16.4289 2.90468 16.2458C2.82881 16.0626 2.71759 15.8961 2.5774 15.7559C2.4372 15.6157 2.27076 15.5045 2.08758 15.4287C1.9044 15.3528 1.70807 15.3137 1.5098 15.3137C1.31153 15.3137 1.1152 15.3528 0.932027 15.4287C0.748849 15.5045 0.58241 15.6157 0.442211 15.7559C0.302013 15.8961 0.190802 16.0626 0.114927 16.2458C0.0390523 16.4289 -2.95446e-09 16.6253 0 16.8235Z"
+                                fill="white" />
+                        </svg>
+
+                    </span>
+                </button>
+
+                <!-- Logo / Brand -->
+                <strong class="header__brand order-2 order-md-0 ms-md-0 ms-auto">ryze</strong>
+
+                <!-- Centered Nav (visible only on desktop) -->
+                <nav class="header__nav d-none d-md-flex mx-auto">
+                    <ul class="header__nav-list d-flex gap-4 list-unstyled mb-0">
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Home</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">Product</a></li>
+                        <li class="header__nav-item"><a href="#" class="header__nav-link">About Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Offcanvas menu for mobile -->
+            <nav class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu" aria-labelledby="mobileMenuLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="mobileMenuLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Hero Section -->
+            <section class="hero">
+                <!-- <h1 class="hero__logo">ryze</h1> -->
+                <img src="./resources/logo-text.svg" alt="Ryze Illustration" class="hero__image">
+                <p class="hero__subtitle">Above the Rest</p>
+                <!-- <a href="#" class="hero__cta-btn">Get Started</a> -->
+            </section>
+        </div>
+
+        <div class="hero__mountains-wrapper">
+            <img src="./resources/mountains.svg" alt="Mountains Illustration" class="hero__mountains">
+        </div>
+
+        <!-- Product -->
+        <section class="product">
+            <div class="container text-center product__content">
+                <h5 class="product__title">19” LED monitor</h5>
+                <p class="product__model">RYZ-L1901M</p>
+                <img src="./resources/monitor.png" alt="Ryze Illustration" class="product__image" />
+            </div>
+        </section>
+
+
+        <!-- Feature Section -->
+        <section class="features py-5">
+            <div class="container">
+                <h2 class="text-center features__heading">True to life picture</h2>
+                <div class="row g-4 features__content">
+                    <div class="col-md-6 order-2 order-md-1 text-center text-md-start">
+                        <h5 class="features__spec">1440 x 900px</h5>
+                        <h5 class="features__product-name">HD Monitor</h5>
+                        <p class="features__description">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown</p>
+                    </div>
+                    <div class="col-md-6 order-1 order-md-2">
+                        <img src="./resources/feature-monitor.png" alt="Monitor" class="features__image" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlight Section -->
+        <section class="highlights">
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-6 col-md-2">
+                        <div class="monitor-highlights__icon-box">
+                            <img src="./resources/highlight-icon.png" alt="HDMI" class="monitor-highlights__icon" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="monitor-highlights__image-wrapper">
+                    <img src="./resources/highlight-monitor.png" alt="Monitor" class="highlights__image" />
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Warrenty Section -->
+        <section class="warranty">
+            <div class="container text-center">
+                <h2 class="warranty__heading">Peace of Mind Guaranteed</h2>
+                <div class="row g-4 warranty__content">
+                    <div class="col-md-6">
+                        <img src="./resources/warranty-icon.png" alt="Warranty Icon" class="warranty__image" />
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="warranty__title">3-Year Limited Warranty</h5>
+                        <p class="warranty__description">
+                            Our monitors come with a 3-year limited warranty covering manufacturer defects,
+                            giving you full confidence in your purchase.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </div>
+
+
+    <!-- SCRIPT -->
+    <script src=" ./bootstrap/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

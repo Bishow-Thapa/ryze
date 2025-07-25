@@ -1,0 +1,39 @@
+@use "../variables" as *;
+
+.product {
+    background-color: $color-dark;
+    font-size: $font-size-base;
+    padding: 1.6rem 0;
+
+    &__title {
+        font-size: .9rem;
+        font-weight: 500;
+        margin-bottom: 0.2rem;
+        color: $color-white;
+
+        @media (min-width: $breakpoint-md) {
+            font-size: 2rem;
+            margin-bottom: 0.6rem;
+        }
+    }
+
+    &__model {
+        font-size: .6rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #777;
+        margin-bottom: .8rem;
+
+        @media (min-width: $breakpoint-md) {
+            font-size: 1.2rem;
+        }
+
+    }
+
+    &__image {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        margin-bottom: -40px;
+    }
+}

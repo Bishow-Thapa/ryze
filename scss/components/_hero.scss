@@ -1,0 +1,54 @@
+@use "../variables" as *;
+
+.hero {
+    background-color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0 1em 0;
+
+    @media (min-width: $breakpoint-md) {
+        padding: 6rem 0 0 0;
+    }
+
+    .hero__image {
+        width: 35%;
+
+        @media (min-width: $breakpoint-md) {
+            width: 30%;
+        }
+    }
+
+    .hero__subtitle {
+        color: $color-white;
+        font-family: $font-family-base;
+        font-size: 2rem;
+        margin-top: 1rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+
+        @media (min-width: $breakpoint-md) {
+            font-family: $font-family-base;
+            margin-top: 1rem;
+            font-size: 4rem;
+            font-weight: bold;
+        }
+    }
+
+    &__mountains-wrapper {
+        width: 100%;
+        overflow: hidden;
+
+        .hero__mountains {
+            width: 100%;
+            display: block;
+            height: auto;
+        }
+    }
+}
+
+.ryze-wrapper {
+    background-color: $color-primary;
+}

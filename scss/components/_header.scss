@@ -1,0 +1,50 @@
+@use "../variables" as *;
+
+.header {
+  background-color: $color-primary;
+  color: $color-white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__brand {
+    color: $color-white;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  &__toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    color: $color-white;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__icon {
+    color: $color-white;
+  }
+
+  &__nav {
+    @media (min-width: $breakpoint-md) {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__nav-list {
+    gap: 2rem;
+
+    .header__nav-link {
+      color: $color-white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
